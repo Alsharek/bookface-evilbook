@@ -5325,48 +5325,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!******************************************!*\
   !*** ./resources/js/components/Index.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-function Index() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "container",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "row justify-content-center",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "col-md-8",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "card",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "card-header",
-            children: "BOOKFACE"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "card-body",
-            children: "eViLBOOK"
-          })]
-        })
-      })
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
-
-if (document.getElementById('app')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(Index, {}), document.getElementById('app'));
-}
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\resources\\js\\components\\Index.js: Expected corresponding JSX closing tag for <input>. (14:20)\n\n\u001b[0m \u001b[90m 12 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33minput\u001b[39m\u001b[33m>\u001b[39m \u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m                         \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"card-body\"\u001b[39m\u001b[33m>\u001b[39meViLBOOK\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m                     \u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m                 \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:569:17)\n    at Object.raiseWithData (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:562:17)\n    at Object.raise (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:523:17)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7478:16)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7445:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7445:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7445:32)\n    at Object.jsxParseElementAt (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7445:32)\n    at Object.jsxParseElement (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7504:17)\n    at Object.parseExprAtom (C:\\laragon\\www\\REACTLARAVEL\\bokkface\\larabookface\\node_modules\\@babel\\parser\\lib\\index.js:7518:19)");
 
 /***/ }),
 
